@@ -6,7 +6,7 @@ on:
 jobs:
   build_docker_image:
 
-    runs-on: Ubuntu:latest
+    runs-on: ubuntu-latest
     
     steps:
       - name: checkout Repository
